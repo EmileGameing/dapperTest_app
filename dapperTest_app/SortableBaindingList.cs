@@ -13,6 +13,7 @@ namespace dapperTest_app
     public class SortableBindingList<T> : BindingList<T>
         where T : class
     {
+
         /// <summary>
         /// ソート済みかどうか
         /// </summary>

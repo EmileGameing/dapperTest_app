@@ -30,6 +30,7 @@ namespace dapperTest_app
             dataGridView1.DataSource = u;
 
             dataGridView1.Columns["UserID"].DisplayIndex = 0;
+            dataGridView1.Columns["UserID"].HeaderText = "ユーザーID";
             var index = dataGridView1.Columns["UserID"].Index;
 
         }
