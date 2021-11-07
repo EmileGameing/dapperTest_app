@@ -15,9 +15,10 @@ namespace dapperTest_app
         public int UserId { set; get; }
         public string Name { set; get; }
         public int Sex { set; get; }
-        public int Address { set; get; }
+        public int Address1 { set; get; }
         public Sex sex { set; get; }
-        public Address address { set; get; }
+        public Address a1 { set; get; }
+        public Address a2 { set; get; }
     }
 
     public class Sex
