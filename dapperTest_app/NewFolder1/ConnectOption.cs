@@ -12,7 +12,6 @@ namespace dapperTest_app
         static string database = "test";
         static string user = "root";
         static string pass = "";
-        static string charset = "utf8";
         public static string connectionString = string.Format("Server={0};Database={1};Uid={2};Pwd={3};", server, database, user, pass);
     }
 }
